@@ -1,0 +1,87 @@
+body {
+  font-family: 'Courier New', monospace; /* Cambié la fuente a una que pueda evocar un estilo vintage */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d2e1c3; /* Verde esmeralda claro para el fondo */
+}
+.header {
+  background-color: #2b2f20; /* Verde esmeralda oscuro para el encabezado */
+  color: #e1ffcc; /* Blanco para el texto del encabezado */
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem; /* Tamaño de fuente ligeramente mayor */
+}
+
+.results {
+  margin-top: 1rem;
+}
+
+.results li {
+  list-style: none;
+  border: 1px solid #5c604e; /* Un tono más oscuro de verde esmeralda para los bordes */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #c8d6b9; /* Verde esmeralda más claro para el fondo de los elementos */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para resaltar */
+}
+
+.product-detail {
+  margin-top: 2rem;
+}
+
+.product-detail img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border: 1px solid #a3ad8a; /* Un tono más claro de verde esmeralda para el borde de la imagen */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para resaltar */
+}
+
+.loading {
+  text-align: center;
+  margin-top: 2rem;
+  color: #738678; /* Un tono más oscuro de verde esmeralda para el texto de carga */
+}
+/* Estilos para el contenedor principal */
+.container {
+  background: #242424;
+  color: #c6dfb6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para la imagen */
+.col-md-6 img {
+  width: 100%; /* Hacer que la imagen ocupe el ancho completo del contenedor */
+  max-width: 400px; /* Establecer un ancho máximo para la imagen */
+  margin: 0 auto; /* Centrar la imagen */
+  display: block; /* Evitar el espacio adicional debajo de la imagen */
+}
+
+/* Estilos para el título */
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+/* Estilos para el campo de búsqueda */
+.col-md-6 input {
+  border: 1px solid #0d6466;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+/* Estilos para el botón de búsqueda */
+.col-md-6 button {
+  background-color: #0d6466;
+  border: 1px solid #0d6466;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.col-md-6 button:hover {
+  background-color: #085354; /* Cambiar color al pasar el ratón sobre el botón */
+}
